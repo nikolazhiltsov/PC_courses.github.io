@@ -1,0 +1,220 @@
+@media screen and (max-width: 1600px) {
+  .down_line .inner{
+       width: 68%;
+   }
+   .down_line .inner .child2{
+       width: 23%;
+   }
+}
+
+@media screen and (max-width: 1400px) {
+    .down_line .inner{
+         width: 68%;
+     }
+     .down_line .inner .child2{
+         width: 25%;
+     }
+}
+
+@media screen and (max-width: 1260px) {
+    .down_line .inner{
+         width: 70%;
+     }
+     .down_line .inner .child2{
+         width: 27%;
+     }
+     .menu{
+        margin-left: 31%;
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .down_line .inner{
+         width: 75%;
+     }
+     .down_line .inner .child2{
+         width: 30%;
+     }
+     .menu{
+        margin-left: 26%;
+        max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    .down_line .inner{
+         width: 90%;
+     }
+     .down_line .inner .child2{
+         width: 25%;
+     }
+     .menu{
+        margin-left: 15%;
+        max-width: 60%;
+    }
+    .click1{
+        right: 2.8%;
+    }
+  }
+
+@media screen and (max-width: 955px) {
+    .down_line .inner{
+         width: 92%;
+     }
+     .down_line .inner .child2{
+         width: 26%;
+     }
+     header h1,.row{
+        left: 10%;
+     }
+}
+
+@media screen and (max-width: 900px) {
+    .down_line .inner{
+         width: 97%;
+     }
+     .down_line .inner .child2{
+         width: 26%;
+     }
+     header h1,.row{
+        left: 4%;
+     }
+     .click1{
+        right: 1.6%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .menu{
+        margin-left: 12%;
+        max-width: 62%;
+    }
+     .click1{
+        right: 1.5%;
+    }
+    .down_line .inner .child2{
+        width: 27.5%;
+    }
+    header h1,.row{
+        left: 3%;
+     }
+    header h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .menu{
+        display: none;
+    }
+     .click1{
+        right: 1.5%;
+    }
+    .down_line .inner .child2{
+        width: 25%;
+    }
+    header h1,.row{
+        left: 3%;
+     }
+     .row{
+         top: 550px;
+     }
+    header h1{
+        width: 525px;
+        font-size: 60px;
+        white-space: normal;
+    }
+    .down_line .inner .child2 div:first-child{
+        line-height: 120%;
+    }
+}
+
+@media screen and (max-width: 732px) {
+    .down_line .inner .child2{
+        display: none;
+    }
+    .down_line .inner .child3{
+        width: 66%;
+    }
+    .down_line .inner .child3 .div_up p1{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 780px) {
+    header h1{
+        top: 140px;
+    }
+    .row{
+        top: 420px;
+    }
+    .down_line{
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .down_line .inner .child3{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    header h1{
+        font-size: 50px;
+        line-height: normal;
+        top: 100px;
+        width: 430px;
+    }
+    .row{
+        top: 300px;
+        width: 300px;
+        height: 240px;
+        display: block;
+        left: 0;
+    }
+    .row .row_in{
+        height: 110px;
+        display: inline-block;
+        margin: 0 0 16px 4.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .down_line .inner .child3{
+        width: 55%;
+        font-size: 14px;
+    }
+    .down_line .inner .child3 .div_up p1{
+        font-size: 14px;
+    }
+    .down_line .inner .child3 .div_up p2{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    header h1{
+        font-size: 40px;
+        line-height: normal;
+        top: 120px;
+        width: 350px;
+    }
+    .down_line .inner .child1{
+        max-width: 140px;
+        font-size: 15px;
+    } 
+    .down_line .inner .child3{
+        width: 62%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    header h1{
+        font-size: 35px;
+        line-height: normal;
+        top: 130px;
+        width: 300px;
+    }
+}
