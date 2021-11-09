@@ -1,0 +1,30 @@
+$c-r: white;
+$fz: 16px;
+
+@mixin blocks($mw,$w,$h,$b-d){
+    max-width: $mw;
+    width: $w;
+    height: $h;
+    background: $b-d;
+}
+@mixin fonts($fs,$ff){
+    font-size: $fs;
+    font-family: $ff;
+}
+@mixin place($dis,$con){
+    display: $dis;
+    justify-content: $con;
+}
+
+%center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%pos-n{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
