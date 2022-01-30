@@ -1,0 +1,220 @@
+@media screen and (max-width: 1330px){.wrapper{width: 95%;}}
+@media screen and (max-width: 1290px){
+    header{
+        background-size: cover;
+        background-position: right;
+    }
+    header .mother nav{
+        padding-left: 25%;
+        width: 50.5%;
+    }
+    .prof_in .advantages{gap: 30px;}
+    @media screen and (min-width: 769px){
+        .prof_in .advantages h1{max-width: 205px;}
+    }
+    .profession h1:first-child{line-height: normal;}
+    .hhh {top: calc(100px + 80 * ((100vw - 320px) / 980));}
+    .row{top: calc(220px + 150 * ((100vw - 320px) / 980));}
+}
+
+@media screen and (max-width: 1050px){
+    .activityin .text h1{line-height: normal;}
+    .activityin .text p{padding-top: 20px;}
+    .activityin .text{bottom: 0;}
+    header .mother nav{
+        padding-left: 15%;
+        width: 60.5%;
+    }
+    .lowline .lowlinein .profite{
+        line-height: 100%;
+        width: 190px;
+        flex: none;
+    }
+    table tr td{
+        padding: 20px 2vw;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .activityin{gap: 30px;}
+    .activityin .text{
+        text-shadow: black 2px 2px 12px,
+                    black -2px -2px 12px;
+        flex: 0 1 85%;
+        text-align: center;
+    }
+    header .mother nav{
+        padding-left: 15%;
+        width: 400px;
+        line-height: 150%;
+        padding-top: 5px;
+    }
+    header .mother nav a {margin-left: 5px;}
+    .lowline .lowlinein .profite{display: none;}
+}
+
+@media screen and (max-width: 825px){
+    .activityin{
+        flex-direction: column;
+        gap: 55px;
+    }
+    .activityin .text p{text-align: left;}
+    .lowline{
+        height: 15.5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    html{background-size: cover;}
+    .prof_in{flex-direction: column;}
+    .prof_in .advantages{gap: 15px;}
+    header .mother nav{display: none;}
+    section{
+        width: 100%;
+        padding: 65px 0;
+    }
+    .activity{
+        padding: 110px 0 65px 0;
+    }
+    .hhh{
+        left: 5%;
+        text-shadow: 1px 1px rgb(90, 90, 90),
+                    -1px -1px 1px rgb(90, 90, 90);
+    }
+    .row{left: 5%;}
+    .value,.value_row,.qs_text{flex-direction: column;}
+    .display{
+        display: flex;
+        margin-top: 50px;
+        gap: 12px;
+    }
+    .value, .value_row, .qs_text{
+        margin: 0;
+        gap: 17px;
+    }
+    .qs_text p{margin: 0;}
+    .value{
+        min-width: 100px;
+        width: 20%;
+        text-align: center;
+        order: 2;
+    }
+    .value_row{
+        min-width: 120px;
+        width: 33%;
+        order: 1;
+    }
+    .value_rowin{
+        max-width: 100%;
+        width: 100%;
+    }
+    .value_rowin:nth-child(1),.value_rowin:nth-child(2),.value_rowin:nth-child(3),.value_rowin:nth-child(4){
+        height: 25%;
+    }
+    .value_rowin:nth-child(4){transform: scale(-1,0.1);}
+    .value_rowin:nth-child(3){transform: scale(-1,0.3);}
+    .value_rowin:nth-child(2){transform: scale(-1,0.5);}
+    .value_rowin:nth-child(1){transform: scale(-1,0.7);}
+    .qs_text{
+        width: 46%;
+        height: 100%;
+        order: 3;
+    }
+    .qs_text p{
+        height: 25%;
+        max-width: none;
+        padding: 0;
+    }
+    .value div{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+    }
+    .value div p{ margin: 0;}
+    .partners div{justify-content: center;}
+    .partners div h1{
+        max-width: 405px;
+        text-align: left;
+    }
+    tbody{display: flex;}
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+    table tr:last-child td{border-width: 0 0 1px 0;}
+    table tr:first-child td:last-child{border-width: 0 1px 0 0;}
+    table tr:last-child td:last-child{border-width: 0;}
+    table tr td{padding: 18px 3vw;}
+    .training_program_header{gap: 25px;}
+    .teachers{
+        padding-top: 90px;
+    }
+    .teachers_inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .teachers_header{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teachers_header img{
+        margin: 0;
+        bottom: 25px;
+        transform: scale(1,-1);
+    }
+    .teachers_inner .teacher h1{margin: 20px 0 15px 0;}
+}
+
+@media screen and (max-width: 570px){
+    .row{max-width: 270px;}
+    .row .rowin{
+        margin-left: 0.5em;
+        display: inline-block;
+    }
+    .rowin:nth-child(3),.rowin:nth-child(4){margin-top: 0.5em;}
+    .rowin:nth-child(1),.rowin:nth-child(3){margin-left: 0;}
+    .profite2 ol li:first-child #two{padding-left: 0;}
+}
+
+@media screen and (max-width: 555px){
+    .hhh{
+        max-width: 360px;
+    }
+    .row{
+        top: calc(265px + 240 * ((100vw - 320px) / 980));
+    }
+}
+
+@media screen and (max-width: 520px){
+    .wrapper{width: 90%;}
+    .activityin .picture{
+        flex: none;
+        max-width: 480px;
+    }
+    .row .rowin{border: 0.6px solid rgba(255, 255, 255, 0.295);}
+}
+
+@media screen and (max-width: 444px){
+    .partners div h1{max-width: 195px;}
+    .quick_start h1{
+        line-height: normal;
+        margin-left: calc(99px + 26 * ((100vw - 320px) / 980));
+    }
+    .quick_start p{text-align: center;}
+}
+
+@media screen and (max-width: 430px){
+    .activityin .picture .border img{max-width: 105%;top: 32px;}
+    .activityin .picture .border{border-width: 19px;}
+    .profite2 ol li:first-child #one{display: none;}
+    .lowline .lowlinein{gap: 10px;}
+    .value_row{display: none;}
+    .qs_text{width: auto;}
+    footer .input input{
+        width: 50%;
+    }
+    
+}
