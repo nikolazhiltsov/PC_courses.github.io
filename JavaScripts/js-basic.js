@@ -5,6 +5,8 @@ let menu_burger = document.querySelectorAll('label');
 let table_inner = document.querySelectorAll('.table_inner');
 let table = document.querySelector('.table');
 
+let y = 0.3;
+let y_beta;
 
 menu.addEventListener('click', function(e){
     const yoyo = e.target.getAttribute('data-goto');
@@ -41,6 +43,19 @@ mother.addEventListener('click', function(e){
     }
 })
 
+table.addEventListener('mousedown', (e) => {
+    posX = e.offsetX;
+    posY = e.offsetY;
+    if(e.target.closest('.table_inner')){
+        e.target.style.setProperty('--x', posX + 'px');
+        e.target.style.setProperty('--y', posY + 'px');
+        e.target.classList.add('pulse');
+        e.target.addEventListener('animationend', () =>{
+            e.target.classList.remove('pulse');
+        })
+    }
+})
+
 window.onscroll = function (){
     let scr = menu.offsetHeight - mother.offsetHeight;
     if(document.documentElement.clientWidth > 1290){
@@ -57,9 +72,6 @@ window.onscroll = function (){
         }
     }
 };
-
-let y = 0.3;
-let y_beta;
 
 for (let i = 0; i < table_inner.length; i++) {
     y += 0.1;
