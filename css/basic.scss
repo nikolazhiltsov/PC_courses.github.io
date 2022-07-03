@@ -182,7 +182,7 @@ nav{
     transform: translate(-50%,-50%) scale(0);
     aspect-ratio: 1/1;
     transition-delay: 0s !important;
-    transition: 350ms;
+    transition: 450ms;
     border-radius: 50%;
     background-color: white;
     isolation: isolate;
@@ -191,7 +191,7 @@ nav{
 }
 
 .pulse::before{
-    animation: pulse 350ms;
+    animation: pulse 450ms;
 }
 
 @keyframes pulse{
