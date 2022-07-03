@@ -255,8 +255,8 @@ header .mother_block {
   aspect-ratio: 1/1;
   -webkit-transition-delay: 0s !important;
           transition-delay: 0s !important;
-  -webkit-transition: 350ms;
-  transition: 350ms;
+  -webkit-transition: 450ms;
+  transition: 450ms;
   border-radius: 50%;
   background-color: white;
   isolation: isolate;
@@ -265,8 +265,8 @@ header .mother_block {
 }
 
 .pulse::before {
-  -webkit-animation: pulse 350ms;
-          animation: pulse 350ms;
+  -webkit-animation: pulse 450ms;
+          animation: pulse 450ms;
 }
 
 @-webkit-keyframes pulse {
